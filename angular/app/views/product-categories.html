@@ -1,0 +1,32 @@
+<div class="row">
+
+	<div class="col-xs-12" ng-show="Products.errorMessage">
+		<div class="alert alert-danger">{{Products.errorMessage}}</div>
+	</div>
+
+	<div  ng-hide="Products.errorMessage">
+		
+		<div class="list-group">
+			
+			<div class="list-group-item">
+            <div class="row" ng-controller="ctrl">
+			<div class="col-md-3"><label>Mobile Phone</label>
+			<a href="#/phones" ng-click="dum('phones');" ><img src="images/ipone1.png" height="300" width="300"/></a>
+			</div>
+			<div class="col-md-3"><label>Watches</label>
+			<a href="#/watches" ng-click="dum1('watches');"  > <img src="images/watches.png" height="300" width="300"/></a>
+			</div>
+			<div class="col-md-3"><label>Hand Bags</label>
+			<a href="#/handbags" ng-click="dum2('handbags');" > <img src="images/handbags.jpg" height="300" width="300"/></a>
+			</div>
+			<div class="col-md-3"><label>Dresses</label>
+			<a href="#/dresses" ng-click="dum3('dresses');"  ><img src="images/dresses.jpg" height="300" width="300"/></a>
+			</div>
+			</div>
+		</div>
+
+
+		</div>
+
+</div>
+</div>
